@@ -7,3 +7,5 @@ export function getInfractionsFrom(userId: number) {
     }
   })
 }
+
+export const InfractionsRepository = {getInfractionsFrom}

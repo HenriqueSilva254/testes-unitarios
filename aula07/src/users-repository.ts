@@ -13,3 +13,5 @@ export function getUserByDocument(licenseId: string) {
     }
   })
 }
+
+export const userRepository = {getUser, getUserByDocument}
